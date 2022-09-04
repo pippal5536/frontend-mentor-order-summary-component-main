@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+
+}
+
+.component {
+    width: 20rem;
+    height: 35rem;
+    margin: 2rem auto;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.component-image>img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.component-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1.5rem;
+    height: 100%;
+    font-size: 0.8rem;
+    color: hsl(224, 23%, 55%);
+}
+
+.component-detail>h1 {
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: hsl(223, 47%, 23%);
+}
+
+.component-detail>p {
+    line-height: 1.8em;
+    padding: 0 1rem;
+}
+
+.plan-container {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 0.5rem 0 0.5rem;
+    align-items: center;
+}
+
+.plan-and-logo {
+    display: flex;
+}
+
+.plan-and-logo>figure>img {
+    width: 2rem;
+    margin-right: 1.5rem;
+}
+
+.plan-type {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.plan-change>a {
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.plan-change>a:hover {
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 75%);
+}
+
+button {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    color: hsl(225, 100%, 98%);
+    font-weight: 900;
+}
+
+button:hover {
+    background-color: hsla(245, 75%, 52%, 75%);
+
+}
+
+.cancel-order {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+.cancel-order:hover {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    text-decoration: none;
+}
